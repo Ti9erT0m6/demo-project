@@ -4,8 +4,8 @@ window.pageInit = function (settings) {
         settings();
     }
 };
-pageInit(function () {    
-    console.log(document.currentScript.src);
+pageInit(function () {
+    
 });
 
 function loadpage() {
@@ -18,4 +18,7 @@ function loadpage() {
             i--;
         }
     }
+}
+function Init(){
+    
 }
